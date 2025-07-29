@@ -28,5 +28,8 @@ print("Ciphertext:",ciphertext)
 decrypted_text=decrypt(ciphertext,key)
 print("Decrypted text:", decrypted_text)
 
-
+#Enter the plaintext:HELLO
+#Enter the key:3
+#Ciphertext: KHOOR
+#Decrypted text: HELLO
 
