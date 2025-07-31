@@ -11,6 +11,7 @@ def atbash_cipher(plaintext):
             ciphertext += char 
     return ciphertext
 
+print("Atbash Cipher")
 plaintext = input("Enter the plaintext: ")
 ciphertext = atbash_cipher(plaintext)
 print("Ciphertext:", ciphertext)

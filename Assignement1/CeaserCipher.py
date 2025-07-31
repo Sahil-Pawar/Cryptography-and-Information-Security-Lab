@@ -1,4 +1,5 @@
 # The code above implements a Caesar cipher for encryption and decryption.
+print("Caesar Cipher")
 plaintext=input("Enter the plaintext:")
 key=int(input("Enter the key:"))
 
@@ -21,6 +22,7 @@ def decrypt(ciphertext,key):
               char = chr(((ord(char) - ord('a') - key + 26) % 26) + ord('a'))   
         plaintext +=char
     return plaintext
+
 
 ciphertext=encrpyt(plaintext,key)
 print("Ciphertext:",ciphertext)
