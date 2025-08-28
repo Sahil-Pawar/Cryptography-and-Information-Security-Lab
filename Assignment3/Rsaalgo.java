@@ -1,7 +1,7 @@
 package Assignment3;
 
 import java.util.*;
-public class Rsa {
+public class Rsaalgo{
 
     // Check if a number is prime
     public static boolean isPrime(int n) {
